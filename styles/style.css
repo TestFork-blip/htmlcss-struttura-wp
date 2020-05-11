@@ -54,7 +54,7 @@ footer
 }
 /*---- Classe clearfix -----*/
 
-main
+.clearfix
 {
     width: 100%;
     content: "";
