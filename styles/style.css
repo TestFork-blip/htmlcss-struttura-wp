@@ -1,3 +1,10 @@
+/*
+    Tutte le altezze, bordi, e colori di sfondo sono provvisori
+    al fine di avere una visione d'insieme
+    saranno poi riadattate in percentuale/vh o nulle quando ci saranno
+    dei contenuti al loro interno
+*/
+
 *
 {
     margin: 0;
@@ -17,4 +24,48 @@ footer
     background-color: lightblue;
 }
 
+.laterale
+{
+    width: 30%;
+    float: left;
+
+    height: 500px;
+    border: 1px solid black;
+}
+
+.centrale
+{
+    width: 40%;
+    float: left;
+
+    height: 700px;
+    border: 1px solid black;
+}
+
+.laterale.sinistro
+{
+    background-color: lightgreen;
+}
+
+.laterale.destro
+{
+    background-color: lightslategray;
+    height: 600px;
+}
 /*---- Classe clearfix -----*/
+
+main
+{
+    width: 100%;
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*----- Div dentro la colonna destra-----*/
+.box
+{
+    height: 40%;
+    margin:5%;
+    background-color: lightcoral;
+}
