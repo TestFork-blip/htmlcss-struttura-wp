@@ -24,12 +24,18 @@ footer
     background-color: lightblue;
 }
 
+main
+{
+    width: 80%;
+    margin: auto;
+}
+
 .laterale
 {
     width: 30%;
     float: left;
 
-    height: 500px;
+    
     border: 1px solid black;
 }
 
@@ -50,13 +56,15 @@ footer
 .laterale.destro
 {
     background-color: lightslategray;
-    height: 600px;
+    
 }
 /*---- Classe clearfix -----*/
 
 .clearfix
 {
+    margin: 20px 0;
     width: 100%;
+    
     content: "";
     display: table;
     clear: both;
@@ -65,7 +73,7 @@ footer
 /*----- Div dentro la colonna destra-----*/
 .box
 {
-    height: 40%;
+    height: 200px;
     margin:5%;
     background-color: lightcoral;
 }
